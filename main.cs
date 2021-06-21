@@ -2,13 +2,15 @@ using System;
 class HelloWorld {
   static void Main() {
       
-      string g="King Archery";
-      string gl="shoot arrows towards a target ";
+      string game="King Archery";
+      string goal="shoot arrows towards a target";
+      string publisher="tgame";
       
-     Console.WriteLine(g+" TAG ->");
-     Console.WriteLine(ret(g));
-     Console.WriteLine(g+" DESCRIPTION ->");
-     Console.WriteLine(retd(g,gl));
+     Console.WriteLine(game+" ->");
+     Console.WriteLine("TAG ->");
+     Console.WriteLine(ret(game));
+     Console.WriteLine("DESCRIPTION ->");
+     Console.WriteLine(retd(game,goal,publisher));
   }
   
   static string ret(string s){
@@ -17,10 +19,10 @@ class HelloWorld {
       return rets;
   }
   
-  
-  static string retd(string g,string gl){
+  static string retd(string g,string gl,string p){
       string ret;
-      ret = g+" is a free mobile game and Hyper Casual Game that you can play on your phone. In "+g+
+      ret = g+" is a free mobile game and Hyper Casual Game that you can play on your phone."+" The Game "+
+      g+" made by "+p+". In "+ g+
       " your goal is to " +gl+". I recommend playing "+g+
       " if you want to play a free mobile game or Hyper Casual Game.";
       return ret;
