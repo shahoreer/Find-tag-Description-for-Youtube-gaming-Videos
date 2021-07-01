@@ -32,13 +32,12 @@ class HelloWorld {
   
   static string convinhashtag(string s){
       int l=s.Length;
-      string r="";
+      string r="#";
       for(int i=0;i<l;i++){
           string ck=s.Substring(i,1);
           if(ck!= " ")
             r+=ck;
       }
-      r="#"+r;
       return r;
   }
 }
