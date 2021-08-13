@@ -2,13 +2,13 @@ using System;
 class HelloWorld {
   static void Main() {
 
-      string game="King Archery";
-      string goal="shoot arrows towards the target";
-      string publisher="tgame";
-      string youtube_channel= "TheBro";
-      string email= "thebroytm@gmail.com";
-      string gametype="2D Shooting";
-      
+     string game="King Archery";
+     string goal="shoot arrows towards the target";
+     string publisher="tgame";
+     string youtube_channel= "TheBro";
+     string email= "thebroytm@gmail.com";
+     string gametype="2D Shooting";
+     
      Console.WriteLine(game+" ->\n");
      Console.WriteLine("TAG ->\n");
      Console.WriteLine(ret(game,gametype));
